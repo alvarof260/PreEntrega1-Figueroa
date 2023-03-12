@@ -1,6 +1,5 @@
 // primer algoritmo
 let consulta = preguntar()
-console.log(consulta)
 let precioZapas = 30000
 let precioRemera = 10000
 let precioPantalon = 20000
@@ -42,7 +41,7 @@ function mensajeProductos(precio,compraFinal) {
 }
 
 function preguntar() {
-    let consulta = prompt('Ingrese el nombre del producto que quiere comprar(escribir cancelar si no quieres mas):').toLowerCase()
+    let consulta = prompt('Ingrese el nombre del producto que quiere comprar(escribir cancelar si no quieres mas) 1-zapatilla,2-remera,3-pantalon,4-buzo:').toLowerCase()
     return consulta
 }
 
